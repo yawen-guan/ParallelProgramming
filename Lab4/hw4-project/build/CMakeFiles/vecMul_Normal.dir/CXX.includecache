@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gwen/Desktop/hw4/vecMul_Normal.cpp
+cstdio
+-
+cstdlib
+-
+cstring
+-
+iostream
+-
+thread
+-
+random
+-
+

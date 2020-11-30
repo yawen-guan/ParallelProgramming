@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread  -rdynamic CMakeFiles/vecMul_Normal.dir/vecMul_Normal.cpp.o  -o vecMul_Normal 

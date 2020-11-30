@@ -1,0 +1,21 @@
+==================
+WARNING: ThreadSanitizer: data race (pid=28516)
+  Write of size 4 at 0x000000f122f8 by thread T2:
+    #0 Thread2 /media/gwen/DATA/A_GW/Courses/Parallel_and_distributed_computing/hw3/code/multithread.c:17:11 (multithread+0x4b252d)
+
+  Previous write of size 4 at 0x000000f122f8 by thread T1:
+    #0 Thread1 /media/gwen/DATA/A_GW/Courses/Parallel_and_distributed_computing/hw3/code/multithread.c:12:11 (multithread+0x4b24fd)
+
+  Location is global 'Global' of size 4 at 0x000000f122f8 (multithread+0x000000f122f8)
+
+  Thread T2 (tid=28519, running) created by main thread at:
+    #0 pthread_create <null> (multithread+0x423a8b)
+    #1 main /media/gwen/DATA/A_GW/Courses/Parallel_and_distributed_computing/hw3/code/multithread.c:70:5 (multithread+0x4b26aa)
+
+  Thread T1 (tid=28518, finished) created by main thread at:
+    #0 pthread_create <null> (multithread+0x423a8b)
+    #1 main /media/gwen/DATA/A_GW/Courses/Parallel_and_distributed_computing/hw3/code/multithread.c:69:5 (multithread+0x4b2694)
+
+SUMMARY: ThreadSanitizer: data race /media/gwen/DATA/A_GW/Courses/Parallel_and_distributed_computing/hw3/code/multithread.c:17:11 in Thread2
+==================
+ThreadSanitizer: reported 1 warnings

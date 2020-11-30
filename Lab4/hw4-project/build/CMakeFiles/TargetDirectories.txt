@@ -1,0 +1,4 @@
+/home/gwen/Desktop/hw4/build/CMakeFiles/edit_cache.dir
+/home/gwen/Desktop/hw4/build/CMakeFiles/rebuild_cache.dir
+/home/gwen/Desktop/hw4/build/CMakeFiles/vecMul_Foster.dir
+/home/gwen/Desktop/hw4/build/CMakeFiles/vecMul_Normal.dir
